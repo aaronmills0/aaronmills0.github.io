@@ -17,7 +17,7 @@ body {
   --primary: #4b57fe;
   --light: #606bfa;
   --very-light: #8c94ff;
-  --dark: #3640d2;
+  --dark: #3f49dd;
   --very-dark: #2831b8;
   --very-very-dark: #11112d;
   --darkest: #05041a;
@@ -250,7 +250,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(9, 5, 24, 0.3);
+  background: rgba(8, 5, 24, 0.3);
   /*background: rgba(5, 13, 24, 0.3);*/
   position: absolute;
   bottom: 0;
@@ -340,7 +340,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--primary);
+  background: var(--dark);
   /*background: #149ddd;*/
   bottom: 0;
   left: 0;
@@ -364,7 +364,7 @@ section {
   font-weight: 700;
   font-size: 20px;
   /*color: #173b6c;*/
-  color: var(--very-dark)
+  color: var(--very-very-dark)
 }
 
 .about .content ul {
@@ -386,7 +386,7 @@ section {
   font-size: 16px;
   margin-right: 5px;
   /*color: #149ddd;*/
-  color: var(--primary);
+  color: var(--dark);
   line-height: 0;
 }
 
