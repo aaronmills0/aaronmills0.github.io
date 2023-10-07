@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #272829;
 }
 
@@ -98,7 +98,7 @@ h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
+  width: 160px;
   border: 8px solid #2c2f3f;
 }
 
@@ -168,7 +168,7 @@ h6 {
   list-style: none;
 }
 
-.nav-menu>ul>li {
+.nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
 }
@@ -194,7 +194,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
-.nav-menu li:hover>a {
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
@@ -202,7 +202,7 @@ h6 {
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
-.nav-menu li:hover>a i {
+.nav-menu li:hover > a i {
   color: var(--primary);
   /*color: #149ddd;*/
 }
@@ -357,14 +357,14 @@ section {
   font-weight: 700;
   font-size: 26px;
   /*color: #173b6c;*/
-  color: var(--very-dark)
+  color: var(--very-dark);
 }
 
 .about .content h4 {
   font-weight: 700;
   font-size: 20px;
   /*color: #173b6c;*/
-  color: var(--very-very-dark)
+  color: var(--very-very-dark);
 }
 
 .about .content ul {
@@ -648,7 +648,7 @@ section {
   /*background: rgba(20, 157, 221, 0.95);*/
 }
 
-.portfolio .portfolio-wrap .portfolio-links a+a {
+.portfolio .portfolio-wrap .portfolio-links a + a {
   border-left: var(--primary);
   /*border-left: 1px solid #37b3ed;*/
 }
@@ -682,7 +682,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -691,7 +694,10 @@ section {
   /*border: 1px solid #149ddd;*/
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: var(--primary);
   background-color: #149ddd;
 }
@@ -716,7 +722,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -922,8 +928,8 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: var(--very-very-dark)
-    /* color: #050d18; */
+  color: var(--very-very-dark);
+  /* color: #050d18; */
 }
 
 .contact .info p {
@@ -999,7 +1005,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1055,7 +1061,7 @@ section {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: var(--primary);
   /* background: #149ddd; */
   border: 0;
@@ -1065,7 +1071,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: var(--dark);
   /* background: #37b3ed; */
 }
@@ -1112,11 +1118,11 @@ section {
   font-size: 15px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: var(--very-very-dark);
